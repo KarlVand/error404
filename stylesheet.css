@@ -1,0 +1,61 @@
+html, body {
+    background-color: rgb(221, 221, 23);
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    top:30%;
+    left:40%;
+    z-index: 1;
+}
+
+h1 {
+    position: relative;
+    color: brown;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 8vw; 
+}
+
+
+p {
+    position:relative;
+    align-content: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+    top: -30px;
+    right: 10px;
+}
+
+
+button {
+    position: relative;
+    right: 0px;
+    bottom: 50px;
+    border-radius: 5%;
+    background-color: brown;
+}
+
+button :hover {
+    background-color: black;
+    size: 95%;
+}
+
+
+a {
+    font-size: 3vw;
+    text-transform: uppercase;
+    padding: 18px;
+    color: aliceblue;
+ 
+}
+
+img {
+    position: absolute;
+    z-index: 0;
+    left: 15%;
+    bottom: 9%;
+}
