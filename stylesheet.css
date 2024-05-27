@@ -6,6 +6,7 @@ html, body {
 
 .container {
     position: relative;
+    justify-content: center;
     margin: auto;
     top:30%;
     left:40%;
